@@ -1,0 +1,50 @@
+/*基本コード*/
+a{
+    text-decoration: none; /*テキスト装飾の設定をする(アンダーラインの削除)*/
+    color:black; /*文字色の設定をする(色名で設定)*/
+}
+
+h1{
+    font-family: 'Kaisei Tokumin', serif; /*Google Fontsのコード*/
+    text-align: center; /*テキストを真ん中に揃える*/
+    margin-top: 20px; /*上側の空白部を20pxにする*/
+    margin-bottom: 20px; /*上側の空白部を20pxにする*/
+}
+
+h1 a{
+    color: #ff8c00; /*文字色の設定をする(色コードで設定)*/
+}
+
+h2{
+    text-align: center; /*テキストを真ん中に揃える*/
+    font-size: 20px; /*フォントのサイズを20pxにする*/
+    margin-top: 40px; /*上側の空白部を40pxにする*/
+    margin-bottom: 40px; /*下側の空白部を40pxにする*/
+}
+
+p{
+    text-align: center;
+    font-size: 20px; /*フォントのサイズを14pxにする*/
+    margin-top: 40px; /*上側の空白部を40pxにする*/
+    margin-bottom: 40px; /*下側の空白部を40pxにする*/
+    margin-left: 40px; /*左側の空白部を40pxにする*/
+    margin-right: 40px; /*右側の空白部を40pxにする*/
+}
+
+/*portfolioの画像コード*/
+.portfolio{
+    width: 100%; /*幅をぴったりにする*/
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*footerのコード*/
+footer{
+    background-color: #2e8b57; /*footer部分の背景を設定する*/
+    color: white; /*文字色を城に変更する*/
+    text-align: center; /*テキストを真ん中に揃える*/
+    font-size: 16px; /*フォントのサイズを10pxにする*/
+    padding-top: 20px; /*ボックス内側上側の空白部を20pxにする*/
+    padding-bottom: 20px; /*ボックス内側上側の空白部を20pxにする*/
+}
